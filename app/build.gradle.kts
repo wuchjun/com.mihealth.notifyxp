@@ -14,6 +14,15 @@ android {
         versionName = "1.0.0"
     }
 
+    signingConfigs {
+        create("release") {
+            storeFile = file("../signing.jks")
+            storePassword = "wangjie123"
+            keyAlias = "release"
+            keyPassword = "wangjie123"
+        }
+    }
+
     buildTypes {
         release {
             isMinifyEnabled = true
@@ -21,7 +30,7 @@ android {
                 "proguard-rules.pro",
                 getDefaultProguardFile("proguard-android-optimize.txt")
             )
-            signingConfig = signingConfigs["debug"]
+            signingConfig = signingConfigs["release"]
         }
     }
 
