@@ -7,13 +7,18 @@
 
     <application
         android:name=".App"
-        android:label="小米运动健康通知扩展"
+        android:label="@string/app_name"
+        android:description="@string/module_description"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@android:style/Theme.DeviceDefault"
         tools:ignore="MissingApplicationIcon">
+
+        <meta-data
+            android:name="xposeddescription"
+            android:value="@string/module_description" />
     </application>
 
 </manifest>

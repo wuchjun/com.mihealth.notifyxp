@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">小米运动通知扩展</string>
-    <string name="module_description">允许小米运动健康自定义消息通知选择系统应用</string>
+    <string name="app_name">小米运动健康通知扩展</string>
+    <string name="module_description">让通知设置页面显示所有已安装应用，包括无桌面入口的系统应用</string>
 </resources>
