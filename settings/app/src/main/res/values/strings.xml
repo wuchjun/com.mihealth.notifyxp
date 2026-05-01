@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">通知设置</string>
+    <string name="select_apps">选择应用</string>
+    <string name="no_permission">需要 ADB 授权才能修改设置</string>
+    <string name="grant_permission">授权</string>
+    <string name="save">保存</string>
+    <string name="saved">已保存</string>
+</resources>
